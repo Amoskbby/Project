@@ -13,10 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\1_Chapter">
+      <UniqueIdentifier>{118e0a27-6194-4277-bede-ce450a9aa045}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_2_输入输出.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\1_Chapter</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
