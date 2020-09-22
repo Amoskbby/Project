@@ -16,6 +16,9 @@
     <Filter Include="源文件\1_Chapter">
       <UniqueIdentifier>{118e0a27-6194-4277-bede-ce450a9aa045}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2_Chapter">
+      <UniqueIdentifier>{bd290b3d-f973-459a-9f65-3609863f4166}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1_2_输入输出.cpp">
@@ -27,5 +30,16 @@
     <ClCompile Include="1_4_1.cpp">
       <Filter>源文件\1_Chapter</Filter>
     </ClCompile>
+    <ClCompile Include="1_5_2.cpp">
+      <Filter>源文件\1_Chapter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Version_test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

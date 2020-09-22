@@ -153,7 +153,14 @@
     <ClCompile Include="1_3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="1_4_1.cpp" />
+    <ClCompile Include="1_4_1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1_5_2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_item.h" />
+    <ClInclude Include="Version_test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
